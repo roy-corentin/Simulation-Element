@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+from src.simulation import simulation
+from src.args import parse_args, WindowsInfo
+
+
+def main() -> int:
+    args: WindowsInfo = parse_args()
+    return simulation(args)
+
+
+if __name__ == "__main__":
+    exit(main())
