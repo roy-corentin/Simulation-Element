@@ -1,6 +1,5 @@
 from argparse import ArgumentTypeError, ArgumentParser
 from sys import argv
-from turtle import width
 from typing import List, NamedTuple
 
 
